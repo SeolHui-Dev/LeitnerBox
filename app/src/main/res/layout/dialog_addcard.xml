@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="316dp">
+
+        <TextView
+            android:id="@+id/ac_maintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카드 추가" />
+
+        <Button
+            android:id="@+id/ac_exbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="엑셀에서 가져오기" />
+
+        <Button
+            android:id="@+id/ac_jubtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="직접 추가하기" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
